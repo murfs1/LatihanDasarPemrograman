@@ -7,9 +7,9 @@ while (jalan==True):
     keliling = 2*22/7*r
     print ("Luas Lingkaran \t\t= ",luas)
     
-    l=input("apakah ingin keluar atau menghitung keliling? (y/n) : ")
-    if (l=='y'):
+    l=input("apakah ingin keluar tanpa menghitung keliling? (y=1/n=2) : ")
+    if (l=='1'):
         print ("Keliling Lingkaran\t= ",keliling)
     else:
-        jalan=False
+        print ("terimakasih")
     break
